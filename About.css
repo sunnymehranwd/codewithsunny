@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* boilerplate code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(coding-background.jpg);
+    position: fixe;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.your span{
+    color: white;
+}
+.your h1{
+    color: #ff7200;;
+}
+.your span2{
+    color: green;
+}
+.about-1{
+    margin-left: 12%;
+    margin-top: 2%;
+    color: white;
+    font-size: 40px;
+}
+.abc{
+    
+    color: coral;
+   
+}
+.ab{
+    font-size: 20px;
+    
+}
+.d{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    color: green;
+    
+}
