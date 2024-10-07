@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* boilerplate code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(fullscreen.avif);
+    position: fixed;
+    
+
+}
+/* navpart */
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+   
+    
+}
+
+.nav-h1{
+    color: red;
+    font-size: 20px;
+}
+.options a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.options i{
+    margin-left: 40px;
+    font-size: 20px;
+}
+/* herosection */
+.herosection{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.hero-left{
+    height: 450px;
+    width: 50%;
+
+    
+}
+.hero-right{
+    height: 450px;
+    width: 50%;
+
+}
+.hero-para{
+   margin-top: 70px;
+   padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-left: 5%
+}
+img{
+    margin-top: 1px;
+    
+    align-items: center;
+    
+}
+
+.para2{
+    font-size: 20px;
+}
+.para3{
+    font-size: 25px;
+}
+.button{
+    width: 140px;
+    height: 25px;
+    background-color: #ff7200;
+    border: none;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.button:hover{
+     background-color: white;
+}
+
+.hero-para span{
+    color: #ff7200;
+    font-size: 80px;
+}
+.form{
+    width: 25px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 1150px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 12%;
+    
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.btnn:hover{
+    background: white;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 25px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: 10%;
+    margin-top: 50px;
+}
